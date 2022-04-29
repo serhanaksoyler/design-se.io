@@ -27,6 +27,7 @@ p {
     max-width: 1850px;
     width: 100%;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 img {
@@ -35,7 +36,6 @@ img {
     object-fit: cover;
     object-position: center;
     padding: 5px;
-    margin: 0 auto;
 }
 
 img:hover {
