@@ -51,3 +51,14 @@ footer {
     color: white;
     padding: 10px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00973F;
+    text-decoration: none;
+    transition: 0.5s;
+}
