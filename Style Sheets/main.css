@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'DCBold';
+    src: url(./Fonts/DiodrumCyrillic-Bold.ttf)
+    url(./Fonts/DiodrumCyrillic-Bold.ttf) format("truetype");
+}
+
+body {
+    background-color: #101010;
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+p {
+    color: white;
+    font-family: 'DCBold';
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    max-width: 1850px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    padding: 5px;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 50%;
+    transition: 0.5s;
+}
