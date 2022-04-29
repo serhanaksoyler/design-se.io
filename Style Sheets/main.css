@@ -42,3 +42,11 @@ img:hover {
     opacity: 50%;
     transition: 0.5s;
 }
+
+footer {
+    font-family: 'Helvetica';
+    font-size: small;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
