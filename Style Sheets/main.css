@@ -45,6 +45,7 @@ img:hover {
 
 footer {
     font-family: Helvetica, sans-serif;
+    justify-content: center;
     font-size: small;
     text-align: center;
     color: white;
