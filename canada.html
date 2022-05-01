@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Serhan Aksöyler</title>
+        <meta name="keywords" content="serhan, aksöyler, serhan aksöyler, aksöyler serhan, serhan aksoyler, aksoyler serhan, designer serhan, design, designer">
+        <meta name="author" content="Serhan Aksöyler">
+        <meta name="description" content="Kanada için geri sayım.">
+        <meta property="og:title" content="🇨🇦 Kanada">
+        <meta property="og:description" content="8 Mart tarihli yolculuk için geri sayım.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="./Images/social-canada.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./Style Sheets/main.css"  rel="stylesheet" type="text/css" />
+        <link href="./Images/favicon.ico" rel="icon" type="image/x-icon" />
+    </head>
+    <body>
+            <div class="visual">
+                <img src="./Images/flag.svg" />
+            </div>
+            <style>
+                img {
+                    height: 125px;
+                    border-radius: 2px;
+                    margin-top: 25%;
+                }
+                
+                .visual {
+                    display: block;
+                    text-align: center;
+                }
+            </style>
+            
+            <p id="canada"></p>
+    
+            <script>
+            var countDownDate = new Date("Jun 8, 2022 12:00:00").getTime();
+            var x = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("canada").innerHTML = days + " gün  " + hours + " saat  "
+            + minutes + " dakika  " + seconds + " saniye  ";
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("canada").innerHTML = "Süre Doldu";
+            }
+            }, 1000);
+            </script>
+    </body>
+</html>
