@@ -30,19 +30,6 @@ p {
     margin: 0 auto;
 }
 
-img {
-    height: 450px;
-    width: 450px;
-    object-fit: cover;
-    object-position: center;
-    padding: 5px;
-}
-
-img:hover {
-    cursor: pointer;
-    opacity: 50%;
-    transition: 0.5s;
-}
 
 footer {
     font-family: Helvetica, sans-serif;
