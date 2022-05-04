@@ -21,6 +21,14 @@ nav {
     margin-left: 12px;
 }
 
+a.logo {
+    display: inline-block;
+    width: 75px;
+    object-fit: cover;
+    object-position: center;
+    padding: 5px;
+}
+
 nav ul {
     margin: 0;
     float: right;
@@ -35,13 +43,13 @@ nav ul li {
     font-size: 14px;
 }
 
-nav ul li a {
+nav ul li a.text {
     text-decoration: none;
     padding-left: 7px;
     color: white;
 }
 
-nav ul li a:hover {
+nav ul li a.text:hover {
     color: #00973F;
     text-decoration: none;
     transition: 0.5s;
