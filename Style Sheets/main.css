@@ -16,9 +16,7 @@ body {
 
 nav {
     display: flex;
-    margin-bottom: 12px;
-    margin-top: 12px;
-    margin-left: 12px;
+    margin: 12px;
 }
 
 a.logo {
@@ -27,11 +25,13 @@ a.logo {
     object-fit: cover;
     object-position: center;
     padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 nav ul {
-    margin: 0;
-    float: right;
+    margin-left: auto;
+    text-align: right;
 }
 
 nav ul li {
@@ -41,6 +41,7 @@ nav ul li {
     font-family: DC-Med;
     line-height: 35px;
     font-size: 14px;
+    flex-direction: row-reverse;
 }
 
 nav ul li a.text {
