@@ -1,23 +1,61 @@
 @font-face {
-    font-family: 'DCBold';
-    src: url(./Fonts/DiodrumCyrillic-Bold.ttf)
-    url(./Fonts/DiodrumCyrillic-Bold.ttf) format("truetype");
+    font-family: 'DC-Med';
+    src: url(../Fonts/DiodrumCyrillic-Medium.ttf),
+    url(../Fonts/DiodrumCyrillic-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'DC-Reg';
+    src: url(../Fonts/DiodrumCyrillic-Regular.ttf),
+    url(../Fonts/DiodrumCyrillic-Regular.ttf) format("truetype");
 }
 
 body {
     background-color: #101010;
 }
 
-.logo {
+nav {
     display: flex;
     margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 12px;
 }
 
+nav ul {
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    font-family: DC-Med;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 7px;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #00973F;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
 p {
     color: white;
-    font-family: sans-serif;
+    font-family: DC-Reg;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: DC-Med;
     text-align: center;
 }
 
@@ -30,22 +68,22 @@ p {
     margin: 0 auto;
 }
 
-
 footer {
-    font-family: Helvetica, sans-serif;
-    justify-content: center;
+    font-family: Dc-Reg;
     font-size: small;
     text-align: center;
     color: white;
     padding: 10px;
 }
 
-a {
+footer a {
     color: white;
     text-decoration: none;
+    font-size: small;
+    padding-top: 0px;
 }
 
-a:hover {
+footer a:hover {
     color: #00973F;
     text-decoration: none;
     transition: 0.5s;
