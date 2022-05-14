@@ -38,7 +38,7 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
     color: white;
-    font-family: DC-Med;
+    font-family: roc-grotesk;
     line-height: 35px;
     font-size: 14px;
     flex-direction: row-reverse;
@@ -58,13 +58,14 @@ nav ul li a.text:hover {
 
 p {
     color: white;
-    font-family: DC-Reg;
+    font-family: roc-grotesk;
     text-align: center;
 }
 
 h3 {
     color: white;
-    font-family: DC-Med;
+    font-family: roc-grotesk;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -78,7 +79,7 @@ h3 {
 }
 
 footer {
-    font-family: Dc-Reg;
+    font-family: roc-grotesk;
     font-size: small;
     text-align: center;
     color: white;
