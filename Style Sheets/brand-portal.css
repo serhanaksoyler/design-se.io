@@ -1,0 +1,59 @@
+.content {
+    display: grid;
+    grid-template-areas:
+    'img bp-text'
+    'seperator seperator';
+    opacity: 50%;
+}
+
+.seperator {
+    width: 100%;
+    height: 0.5px;
+    background-color: white;
+}
+
+.bp-list {
+    justify-content: center;
+    max-width: 1850px;
+    width: 100%;  
+    margin: 0 auto;
+}
+
+.bp-image {
+    grid-area: 'img';
+}
+
+.content img {
+    height: 50px;
+    padding-left: 10px;
+    grid-area: 'img';
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content:hover {
+    opacity: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bp-text {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+}
+
+h3 {
+color: white;
+font-family: roc-grotesk;
+font-weight: 500;
+margin-bottom: 0;
+}
+
+p {
+color: white;
+font-family: roc-grotesk;
+margin-top: 0
+}
