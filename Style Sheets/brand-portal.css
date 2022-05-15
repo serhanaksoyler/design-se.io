@@ -59,3 +59,7 @@ font-size: small;
 font-family: roc-grotesk;
 margin-top: 0
 }
+
+footer {
+    padding: 15px;
+}
