@@ -8,3 +8,9 @@
     display: block;
     text-align: center;
 }
+
+p {
+    color: white;
+    font-family: roc-grotesk;
+    text-align: center;
+}
