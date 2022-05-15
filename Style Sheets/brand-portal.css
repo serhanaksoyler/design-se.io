@@ -47,6 +47,7 @@
 
 h3 {
 color: white;
+font-size: medium;
 font-family: roc-grotesk;
 font-weight: 500;
 margin-bottom: 0;
@@ -54,6 +55,7 @@ margin-bottom: 0;
 
 p {
 color: white;
+font-size: small;
 font-family: roc-grotesk;
 margin-top: 0
 }
