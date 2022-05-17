@@ -25,6 +25,7 @@
 
 .content img {
     height: 50px;
+    max-width: 120px;
     padding-left: 10px;
     grid-area: 'img';
     position: relative;
