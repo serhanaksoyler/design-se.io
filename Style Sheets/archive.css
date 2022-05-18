@@ -4,6 +4,8 @@
     'img bp-text'
     'seperator seperator';
     opacity: 50%;
+    margin-left: 110px;
+    margin-right: 135px;
 }
 
 .seperator {
@@ -14,7 +16,7 @@
 
 .bp-list {
     justify-content: center;
-    max-width: 1850px;
+    max-width: none;
     width: 100%;  
     margin: 0 auto;
 }
@@ -26,7 +28,7 @@
 .content img {
     height: 50px;
     max-width: 120px;
-    padding-left: 10px;
+    padding-left: 0px;
     grid-area: 'img';
     position: relative;
     top: 50%;
@@ -43,7 +45,7 @@
     text-align: right;
     padding: 0;
     margin: 0;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 
 h3 {
