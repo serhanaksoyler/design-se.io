@@ -4,7 +4,9 @@ body {
 
 nav {
     display: flex;
-    margin: 12px;
+    margin-top: 12px;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 a.logo {
