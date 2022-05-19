@@ -1,0 +1,19 @@
+* {
+    line-height: 50rem;
+}
+.visual img {
+    height: 125px;
+    border-radius: 2px;
+    margin-top: 20%;
+}
+
+.visual {
+    display: block;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
