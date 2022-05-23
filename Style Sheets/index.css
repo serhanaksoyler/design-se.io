@@ -1,25 +1,73 @@
-.container img {
-    height: 450px;
-    width: 450px;
-    object-fit: cover;
-    object-position: center;
-    padding: 5px;
+.fp-list {
+    margin-left: 16.9270833333333%;
+    margin-right: 16.9270833333333%;
+    opacity: 100%
 }
 
-.container img:hover {
+.fp-list div:hover {
     cursor: pointer;
     opacity: 50%;
     transition: 0.5s;
 }
 
-nav ul li a.text {
-    text-decoration: none;
-    padding-left: 7px;
-    color: white;
+.fp-left .fp-image {
+    object-fit: cover;
+    object-position: center;
+    opacity: 100%;
+    position: relative;
+    grid-column: 1;
 }
 
-nav ul li a.text:hover {
-    color: #00973F;
-    text-decoration: none;
-    transition: 0.5s;
+.fp-left {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
+
+.fp-left img {
+    width: 99%;
+}
+
+.fp-right .fp-image {
+    object-fit: cover;
+    object-position: center;
+    opacity: 100%;
+    position: relative;
+    grid-column: 2;
+}
+
+.fp-right {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.fp-right img {
+    width: 99%;
+}
+
+.fp-center {
+    display: grid;
+}
+
+.fp-center img {
+    width: 99%;
+}
+
+.fp-left .fp-text {
+    grid-column: 2;
+}
+
+h3 {
+    color: white;
+    font-size: medium;
+    font-family: roc-grotesk;
+    font-weight: 500;
+    margin-bottom: 0;
+    }
+    
+p {
+    color: white;
+    font-size: small;
+    font-family: roc-grotesk;
+    margin-top: 0;
+}
+    
