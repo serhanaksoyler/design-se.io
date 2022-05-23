@@ -34,7 +34,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .fp-left img {
@@ -52,7 +52,7 @@
 .fp-right {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .fp-right img {
@@ -69,7 +69,7 @@
     
 .fp-center {
     display: grid;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .fp-center img {
