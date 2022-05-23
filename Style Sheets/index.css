@@ -59,6 +59,14 @@
     width: 100%;
 }
 
+.fp-right h3 {
+    text-align: right;
+}
+
+.fp-right p {
+    text-align: right;
+    }
+    
 .fp-center {
     display: grid;
     margin-bottom: 5%;
