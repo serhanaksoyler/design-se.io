@@ -29,8 +29,31 @@
     margin-bottom: 30px;
 }
 
+.gallery-partial {
+    display: grid;
+    grid-template-areas:
+    'gallery-left gallery-right'
+    'gallery-left gallery-right';
+}
+
+.gallery-left {
+    margin-top: 5px;
+    margin-right: 3.75px;
+}
+
+.gallery-right {
+    margin-top: 5px;
+    margin-left: 3.75px;
+}
+
 .gallery img {
     width: 100%;
+}
+
+.gallery p {
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -51,7 +74,6 @@ p {
 
 .paragraph p {
     text-align: left;
-
     width: 40%;
 }
 
