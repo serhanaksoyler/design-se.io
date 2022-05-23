@@ -4,7 +4,19 @@
     opacity: 100%
 }
 
-.fp-list div:hover {
+.fp-list .fp-left:hover {
+    cursor: pointer;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.fp-list .fp-right:hover {
+    cursor: pointer;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.fp-list .fp-center:hover {
     cursor: pointer;
     opacity: 50%;
     transition: 0.5s;
