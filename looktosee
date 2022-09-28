@@ -17,12 +17,14 @@
         <link rel="stylesheet" href="https://use.typekit.net/rlg8hhy.css">
     </head>
     <body>
-        <img src="./Files/Images/poster.png"/>
+        <img src="./Files/Images/poster-bm.png"/>
         <style>
-            body {
-            margin: 15%;
+            img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
             }
         </style>
     </body>
-    <footer><a href="./index.html">Navigate back to homepage</a></footer>
 </html>
