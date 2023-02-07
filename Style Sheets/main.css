@@ -1,77 +1,73 @@
 body {
-    background-color: #101010;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    font-family: forma-djr-display, sans-serif;
 }
 
-nav {
-    display: flex;
-    margin-top: 12px;
-    margin-left: 4.571428571428571%;
-    margin-right: 4.571428571428571%;
+table {
+    border: 3px solid #F4F4F4;
+    caption-side: bottom;
+    border-collapse: collapse;
 }
 
-a.logo {
-    display: inline-block;
-    width: 75px;
-    object-fit: cover;
-    object-position: center;
-    padding: 5px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-nav ul {
-    margin-left: auto;
-    text-align: right;
-}
-
-nav ul li {
-    display: inline-block;
-    list-style-type: none;
-    color: white;
-    font-family: roc-grotesk;
-    line-height: 35px;
-    font-size: 14px;
-    flex-direction: row-reverse;
-}
-
-nav ul li a.text {
-    text-decoration: none;
-    padding-left: 7px;
-    color: white;
-}
-
-nav ul li a.text:hover {
-    color: #00973F;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.container {
-    justify-content: center;
-    display: flex;
-    max-width: 1850px;
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-
-footer {
-    font-family: roc-grotesk;
-    font-size: small;
+thead {
     text-align: center;
-    color: white;
-    margin-bottom: 25px;
+    border: 3px none #F4F4F4;
 }
 
-footer a {
-    color: white;
-    text-decoration: none;
-    font-size: small;
-    padding-top: 0px;
+td {
+    border: 3px none #F4F4F4;
+    font-weight: 500;
 }
 
-footer a:hover {
-    color: #00973F;
+caption {
+    font-style: italic;
+    padding-top: 7px;
+    font-weight: 500;
+
+}
+
+button {
+    border: thin outset gray;
+}
+
+a {
+    color: #EA0000;
     text-decoration: none;
-    transition: 0.5s;
+}
+
+a:hover {
+    color: #EA0000;
+    text-decoration: underline;
+}
+
+center {
+    text-align: center;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.menu {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.title {
+    color: black;
+    font-size: 15px;
+    margin: 0;
+}
+
+.content {
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+.footer {
+    padding: 10px;
+    font-size: 11px;
 }
