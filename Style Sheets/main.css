@@ -30,7 +30,17 @@ caption {
 }
 
 button {
-    border: thin outset gray;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 500;
+    background-color: #F4F4F4;
+    border: thin dotted #F4F4F4;
+}
+button:hover {
+    transition: 1s;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 500;
+    background-color: #F4F4F4;
+    border: thin dotted black;
 }
 
 a {
